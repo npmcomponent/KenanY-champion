@@ -1,43 +1,11 @@
 {
-  "name": "champion",
-  "version": "2.0.1",
+  "name": "kenany-champion",
   "description": "Get a League of Legends champion from their key.",
+  "version": "2.0.1",
   "keywords": [
     "league-of-legends"
   ],
-  "repository": "KenanY/champion",
-  "license": "MIT",
-  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
   "main": "index.js",
-  "files": [
-    "lib/champions.js",
-    "index.js",
-    "LICENSE.txt"
-  ],
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "tape test/index.js"
-  },
-  "devDependencies": {
-    "tape": "^2.12.0"
-  },
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "ie/6..latest",
-      "firefox/3",
-      "firefox/latest",
-      "chrome/4",
-      "chrome/latest",
-      "opera/10",
-      "opera/latest",
-      "safari/4",
-      "safari/latest",
-      "ipad/6",
-      "iphone/6",
-      "android-browser/4.2"
-    ]
-  }
+  "dependencies": {},
+  "license": "MIT"
 }
